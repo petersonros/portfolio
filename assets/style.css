@@ -1,0 +1,17 @@
+body {
+	background-color: #333333;
+}
+
+header {
+	background-color: #ffffff;
+	width: 100vw;
+	height: 88px;
+}
+
+.main-menu-container {
+	width: 1136px;
+}
+
+.main-menu-item {
+    padding-left: 10px;
+}

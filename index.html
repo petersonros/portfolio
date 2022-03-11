@@ -7,55 +7,50 @@
 	<meta name="description" content="Challenge Oracle ONE - Front End">
 	<meta name="keywords" content="HTML, CSS, JavaScript, Alura, Oracle ONE">
 	<meta name="author" content="Peterson R.">
-	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="flex.css">
 	<title>Portfólio - Peterson</title>
 </head>
 <body>
 
 	<header>
-
-		<div class="header-container">
-
-			<div class="container">
-				<p>Peterson R. Santos</p>
-				<nav>
-					<ul class="main-menu">
-						<li><a href="#Sobre">Sobre mim</a></li>
-						<li><a href="#Skills">Skills</a></li>
-						<li><a href="#Hobbies">Hobbies</a></li>
-						<li><a href="#Formação">Formação</a></li>
-						<li><a href="#Projetos">Projetos</a></li>
-						<li>petersonrobertodossantos@gmail.com</li>
-					</ul>
-				</nav>
-			</div>
-			
-			<div class="container">
-				<div class="short-description">
-					<p>Olá, meu nome é Peterson R. Santos e construo páginas web</p>
-					<p>Sou formado em nada e atualmente estou participando do projeto Oracle ONE na Alura.</p>
-				</div>
-				<div class="profile-picture">
-					<img src="" alt="minha foto" width="370px" height="370px">
-				</div>
-			</div>
-
-			<div class="container">
-				<nav>
-					<ul class="social-menu">
-						<li><a href="#">GitHub</a></li>
-						<li><a href="#">LinkedIN</a></li>
-						<li><a href="#">Instagram</a></li>
-						<li><a href="#">Currículo</a></li>
-					</ul>
-				</nav>
-			</div>
-			
-		</div>
-
+		<p class="my__name">Peterson R. Santos</p>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item"><a class="menu__link" href="#Sobre">Sobre mim</a></li>
+				<li class="menu__item"><a class="menu__link" href="#Skills">Skills</a></li>
+				<li class="menu__item"><a class="menu__link" href="#Hobbies">Hobbies</a></li>
+				<li class="menu__item"><a class="menu__link" href="#Formação">Formação</a></li>
+				<li class="menu__item"><a class="menu__link" href="#Projetos">Projetos</a></li>
+				<li class="main-menu-item">petersonrobertodossantos@gmail.com</li>
+			</ul>
+		</nav>
 	</header>
+
+	<section class="hero">
+			<div class="short__description">
+				<h2>Olá, meu nome é Peterson R. Santos e construo páginas web</h2>
+				<p>Sou programador de máquinas CNC e atualmente estou participando do projeto Oracle ONE na Alura.</p>
+			</div>
+			<nav class="social">
+				<ul class="social__list">
+					<li class="social__item"><a class="social__link" href="#">GitHub</a></li>
+					<li class="social__item"><a class="social__link" href="#">LinkedIN</a></li>
+					<li class="social__item"><a class="social__link" href="#">Instagram</a></li>
+					<li class="social__item"><a class="social__link" href="#">Currículo</a></li>
+				</ul>
+			</nav>
+			<div class="profile__picture">
+				<img src="./assets/image/peterson.jpg" alt="minha foto" width="370px" height="370px">
+			</div>
+	</section>
+
+	<section class="about">
+		<h2 class="about__title">Sobre mim</h2>
+		<p class="about__description">Meu nome é Peterson, sou curioso, gosto de ler e estudar um pouco sobre muitas coisas e muito sobre o que é mais importatne no momento presente.</p>
+		<p class="about__description">Em meu último emprego desempenhava a função de Analisa de Processos (engenharia de produção). Atualmente em transição de carreira estou participando do projeto Oracle ONE na Alura com o objetivo de encontar uma colocação como programador Front End.</p>
+	</section>
 
 </body>
 </html>
