@@ -1,0 +1,7 @@
+.social__item {
+    list-style: none;
+}
+
+.social__item:last-child .social__link {
+    margin: 0;
+}
