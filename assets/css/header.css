@@ -6,7 +6,6 @@ header {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 1136px;
 }
 
 @media screen and (min-width: 0) {
@@ -20,5 +19,6 @@ header {
     header {
         padding: 0 5rem;
         justify-content: space-between;
+        width: 1136px;
     }
 }

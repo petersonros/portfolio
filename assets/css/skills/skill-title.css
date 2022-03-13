@@ -1,0 +1,5 @@
+.skills-hobbies__title {
+    display: flex ;
+    align-items: center;
+    width: 750px;
+}

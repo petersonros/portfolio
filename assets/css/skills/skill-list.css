@@ -1,0 +1,4 @@
+.skills-hobbies__list {
+    display: flex;
+    flex-direction: row;
+}
