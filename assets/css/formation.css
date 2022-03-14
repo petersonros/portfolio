@@ -1,23 +1,23 @@
 .formation {
-    background: #EAF2FD;
+    background: #538ad6;
     display: flex;
     flex-direction: column;
-    height: 24rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 
+}
+/* 
 @media screen and (min-width: 0) {
     .formation {
         justify-content: center;
         padding: 0 1rem;
     }
-}
+} */
 
 @media screen and (min-width: 768px) {
     .formation {
-        padding: 0 5rem;
+        flex-direction: column;
+        height: 581px;
+        justify-content: space-around;
+        padding: 2rem 5rem;
         width: 1136px;
     }
 }
