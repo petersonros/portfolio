@@ -15,8 +15,8 @@
 @media screen and (min-width: 768px) {
     .formation {
         flex-direction: column;
-        height: 581px;
-        justify-content: space-around;
+/*         height: 581px; */
+/*         justify-content: space-around; */
         padding: 2rem 5rem;
         width: 1136px;
     }
