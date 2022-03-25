@@ -1,0 +1,19 @@
+.contact {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 320px) {
+    .contact {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        padding: 0 5rem;
+        width: 1136px;
+    }
+}

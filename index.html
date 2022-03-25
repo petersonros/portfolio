@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="./assets/css/hero/hero-description.css">
 	<link rel="stylesheet" href="./assets/css/hero/hero-title.css">
 	<link rel="stylesheet" href="./assets/css/hero/hero-text.css">
-	<link rel="stylesheet" href="./assets/css/profile-picture.css">
+	<link rel="stylesheet" href="./assets/css/profile.css">
 	<link rel="stylesheet" href="./assets/css/hero/hero-emphasis.css">
 	<link rel="stylesheet" href="./assets/css/social/social-list.css">
 	<link rel="stylesheet" href="./assets/css/social/social-item.css">
@@ -51,6 +51,8 @@
 	<link rel="stylesheet" href="./assets/css/experience/experience-item.css">
 	<link rel="stylesheet" href="./assets/css/experience/experience-list.css">
 	<link rel="stylesheet" href="./assets/css/experience/experience-text.css">
+	<link rel="stylesheet" href="./assets/css/contact.css">
+	<link rel="stylesheet" href="./assets/css/contact/contact-image.css">
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="flex.css">
@@ -85,7 +87,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="profile__picture"></div>
+		<div class="profile"></div>
 	</section>
 
 	<section class="about">
@@ -223,8 +225,21 @@
 	</section>
 
 	<section class="contact">
-		<img src="" alt="">
-		<form action=""></form>
+		<img src="./assets/image/unsplash_JYGnB9gTCls.svg" alt="" class="contact__image">
+		<h2 class="contact__title">Contato</h2>
+		<fieldset>
+			<legend class="form__legend">Informações básicas</legend>
+			<div class="input__container">
+				<input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+				<label class="input__label" for="nome">Nome</label>
+				<span class="input__error">Escreva seu nome por favor.</span>
+			</div>
+			<div class="input__container">
+				<input name="email" id="email" class="input" type="email" placeholder="Email" required>
+				<label class="input__label" for="email">Email</label>
+				<span class="input__error">Infome um email valido por favor.</span>
+			</div>
+		</fieldset>
 	</section>
 
 	<footer>
@@ -232,4 +247,4 @@
 		<p>2022</p>
 	</footer>
 </body>
-</html>00000000
+</html>
