@@ -1,5 +1,7 @@
 .hobbies__item {
     background-color: #ffffff;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem #dfdce3;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
