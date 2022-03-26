@@ -1,5 +1,6 @@
 .about__title {
     font-size: 2rem;
-    font-weight: 700, bold;
+    font-weight: bold;
+    line-height: 1.25rem;
     width: 750px;
 }

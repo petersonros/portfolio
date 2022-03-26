@@ -1,5 +1,5 @@
 .formation__image {
-    background-color: black;
-    height: 130px;
-    width: 190px;
+    border-radius: 7px;
+    height: 260px;
+    width: 260px;
 }

@@ -1,4 +1,17 @@
 .formation__text {
-    font-weight: 500;
-    margin: 1rem;
+    color: #111;
+    margin-top: -140px;
+    opacity: 0;
+    padding-top: 35px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    visibility: hidden;
+}
+
+.formation__item:hover .formation__text {
+    margin-top: -40px;
+    opacity: 1;
+    transition-delay: 0.1s;
+    visibility: visible;
 }

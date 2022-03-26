@@ -1,8 +1,10 @@
 .formation__box {
-    background-color: #ffffff;
-    display: flex;
-    font-size: 1rem;
-    height: 286px;
-    justify-content: center;
-    width: 368px;
+    box-shadow: 0px 3px 15px black;
+    border-radius: 7px;
+    height: 260px;
+    left: 15px;
+    position: relative;
+    top: -40px;
+    width: 260px;
+    z-index: 1;
 }
