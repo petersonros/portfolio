@@ -1,0 +1,22 @@
+footer {
+    align-items: center;
+    color: black;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: center;
+    width: 100vw;
+}
+
+.footer__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
