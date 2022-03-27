@@ -5,3 +5,8 @@
 .menu__item:last-child .menu__link {
     margin: 0;
 }
+
+.menu__item:hover {
+    transform: scale(1.1);
+}
+

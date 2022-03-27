@@ -9,3 +9,8 @@
     margin: 0 .5rem;
     width: 176px;
 }
+
+.skills__item:hover {
+    box-shadow: 0 0 1.5rem white;
+    transform: scale(1.02);
+}

@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="./assets/css/about.css">
 	<link rel="stylesheet" href="./assets/css/about/about-title.css">
 	<link rel="stylesheet" href="./assets/css/about/about-text.css">
+	<link rel="stylesheet" href="./assets/css/about/about_content.css">
 	<link rel="stylesheet" href="./assets/css/skill.css">
 	<link rel="stylesheet" href="./assets/css/skills/skills-title.css">
 	<link rel="stylesheet" href="./assets/css/skills/skills-list.css">
@@ -53,7 +54,7 @@
 	<link rel="stylesheet" href="./assets/css/experience/experience-text.css">
 	<link rel="stylesheet" href="./assets/css/contact.css">
 	<link rel="stylesheet" href="./assets/css/contact/contact-image.css">
-
+	<link rel="stylesheet" href="./assets/css/footer.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="flex.css">
 	<title>Portfólio - Peterson</title>
@@ -61,119 +62,134 @@
 <body class="container">
 
 	<header>
-		<p class="my__name">Peterson R. Santos</p>
-		<nav class="menu">
-			<ul class="menu__list">
-				<li class="menu__item"><a class="menu__link ativo" href="#Sobre">Sobre mim</a></li>
-				<li class="menu__item"><a class="menu__link" href="#Skills">Skills</a></li>
-				<li class="menu__item"><a class="menu__link" href="#Hobbies">Hobbies</a></li>
-				<li class="menu__item"><a class="menu__link" href="#Formação">Formação</a></li>
-				<li class="menu__item"><a class="menu__link" href="#Projetos">Projetos</a></li>
-				<li class="main-menu-item">petersonrobertodossantos@gmail.com</li>
-			</ul>
-		</nav>
-	</header>
-
-	<section class="hero">
-		<div class="hero__description">
-			<p class="hero__emphasis">Peterson Roberto dos Santos, 43 anos, brasileiro.</p>
-			<p class="hero__text">Sou programador de máquinas CNC e atualmente estou participando do projeto Oracle ONE na Alura.</p>
-			<nav class="social">
-				<ul class="social__list">
-					<li class="social__item"><a class="social__link" href="https://github.com/petersonros">GitHub <img src="./assets/image/arrow_right_up.png"></a></li>
-					<li class="social__item"><a class="social__link" href="https://www.linkedin.com/in/peterson-roberto/">LinkedIN</a></li>
-					<li class="social__item"><a class="social__link" href="https://www.instagram.com/peterson_ro.s/">Instagram</a></li>
-					<li class="social__item"><a class="social__link" href="#">Currículo</a></li>
+		<div class="header__container">
+			<div class="my__name">
+				<img src="./assets/image/stars.svg" alt="estrelas">
+				<span class="space"></span>
+				<p> <a href="#hero" class="menu__link"> Peterson R. Santos</a></p>
+			</div>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a class="menu__link ativo" href="#about">Sobre mim</a></li>
+					<li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+					<li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+					<li class="menu__item"><a class="menu__link" href="#formation">Formação</a></li>
+					<li class="menu__item"><a class="menu__link" href="#experience">Projetos</a></li>
+					<li class="menu__item"><a class="menu__link" href="#contact">Contato</a></li>
+					<li class="main-menu-item">petersonrobertodossantos@gmail.com</li>
 				</ul>
 			</nav>
 		</div>
-		<div class="profile"></div>
-	</section>
+	</header>
 
-	<section class="about">
-		<h2 class="about__title">Sobre mim</h2>
-		<p class="about__text">Sou curioso, gosto de ler e estudar um pouco sobre muitas coisas e muito sobre o que for mais importatne no momento presente.</p>
-		<p class="about__text">Em meu último emprego desempenhava a função de Analisa de Processos (engenharia de produção). Atualmente em transição de carreira estou participando do projeto Oracle ONE na Alura com o objetivo de encontar uma colocação como programador Front End.</p>
-	</section>
-
-	<section class="skills">
-		<div class="skills__list">
-			<p class="skills__title">Skills</p>
-		</div>
-		<div class="skills__list">
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-				</div>
-				<div class="skills__text">HTML 5</div>
+	<section id="hero">
+		<div class="hero__container">
+			<div class="hero__description">
+				<p class="hero__emphasis">Peterson Roberto dos Santos, 43 anos.</p>
+				<p class="hero__text">Programador de máquinas CNC, atualmente em transição de carreira, participando do projeto Oracle ONE na <a class="social__item" href="https://www.alura.com.br/" target="_blank" >Alura</a>.</p>
+				<nav class="social">
+					<ul class="social__list">
+						<li class="social__item"><a class="social__link" href="https://github.com/petersonros" target="_blank">GitHub🡥</a></li>
+						<li class="social__item"><a class="social__link" href="https://www.linkedin.com/in/peterson-roberto/" target="_blank">LinkedIN🡥</a></li>
+						<li class="social__item" target="_blank"><a class="social__link" href="https://www.instagram.com/peterson_ro.s/" target="_blank">Instagram🡥</a></li>
+						<li class="social__item"><a class="social__link" href="#">Currículo🡥</a></li>
+					</ul>
+				</nav>
 			</div>
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-				</div>
-				<div class="skills__text">CSS 3</div>
-			</div>
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-				</div>
-				<div class="skills__text">Javascript</div>
-			</div>
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-				</div>
-				<div class="skills__text">GitHub</div>
-			</div>
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-				</div>
-				<div class="skills__text">Bootstrap</div>
-			</div>
-			<div class="skills__item">
-				<div class="skills__icon">
-					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-				</div>
-				<div class="skills__text">Angular</div>
-			</div>
+			<div class="profile"></div>
 		</div>
 	</section>
 
-	<section class="hobbies">
-		<div class="hobbies__list">
-			<p class="hobbies__title">Hobbies</p>
+	<section id="about">
+		<div class="about__container">
+			<h2 class="about__title">Sobre mim</h2>
+			<p class="about__text">Sou curioso, gosto de ler e estudar um pouco sobre muitas coisas e muito sobre o que for mais importante no momento presente.</p>
+			<p class="about__text">Em meu último emprego desempenhava a função de Analisa de Processos (engenharia de produção). Atualmente em transição de carreira estou participando do projeto Oracle ONE na Alura com o objetivo de encontrar uma oportunidade como programador Front-end.</p>
 		</div>
-		<div class="hobbies__list">
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Andar de Skate</div>
+	</section>
+
+	<section id="skills">
+		<div class="skills__container">
+			<div class="skills__list">
+				<p class="skills__title">Skills</p>
 			</div>
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Tocar baixo</div>
-			</div>
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Ouvir música</div>
-			</div>
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Assistir séries</div>
-			</div>
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Cozinhar</div>
-			</div>
-			<div class="hobbies__item">
-				<div class="hobbies__icon"></div>
-				<div class="hobbies__text">Tiras fotos</div>
+			<div class="skills__list">
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+					</div>
+					<div class="skills__text">HTML 5</div>
+				</div>
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+					</div>
+					<div class="skills__text">CSS 3</div>
+				</div>
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+					</div>
+					<div class="skills__text">Javascript</div>
+				</div>
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+					</div>
+					<div class="skills__text">GitHub</div>
+				</div>
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+					</div>
+					<div class="skills__text">Bootstrap</div>
+				</div>
+				<div class="skills__item">
+					<div class="skills__icon">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+					</div>
+					<div class="skills__text">Angular</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="formation">
-		<div class="formation__title">Formação</div>
+	<section id="hobbies">
+		<div class="hobbies__container">
+			<div class="hobbies__list">
+				<p class="hobbies__title">Hobbies</p>
+			</div>
+			<div class="hobbies__list">
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Andar de Skate</div>
+				</div>
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Tocar baixo</div>
+				</div>
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Ouvir música</div>
+				</div>
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Assistir séries</div>
+				</div>
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Cozinhar</div>
+				</div>
+				<div class="hobbies__item">
+					<div class="hobbies__icon"></div>
+					<div class="hobbies__text">Tiras fotos</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="formation">
+		<div class="formation__title">Formação acadêmica</div>
 		<div class="formation__height">
 			<div class="formation__list">
 				<div class="formation__item">
@@ -211,43 +227,50 @@
 		
 	</section>
 
-	<section class="experience">
-		<div class="experience__list">
-			<h2>Experiencia profissional</h2>
-		</div>
-		<div class="experience__list">
-
-			<div class="experience__item">
-				<div class="experience__image"></div>
-				<div class="experience__info">
-					<div class="experience__text">Challenge Alura</div>
-					<button class="experience__repo">Repositório</button>
-					<button class="experience__demo">Ver demo</button>
-				</div>
+	<section id="experience">
+		<div class="experience__container">
+			<div class="experience__list">
+				<h2>Experiencia profissional</h2>
 			</div>
+			<div class="experience__list">
 
-			<div class="experience__item">
-				<div class="experience__image"></div>
-				<div class="experience__info">
-					<div class="experience__text">Challenge Alura</div>
-					<button class="experience__repo">Repositório</button>
-					<button class="experience__demo">Ver demo</button>
+				<div class="experience__item">
+					<div class="experience__image">
+
+					</div>
+					<div class="experience__info">
+						<div class="experience__text">Challenge Alura</div>
+						<button class="experience__repo">Repositório</button>
+						<button class="experience__demo">Ver demo</button>
+					</div>
 				</div>
-			</div>
 
-			<div class="experience__item">
-				<div class="experience__image"></div>
-				<div class="experience__info">
-					<div class="experience__text">Atividade Senai</div>
-					<button class="experience__repo">Repositório</button>
-					<button class="experience__demo">Ver demo</button>
+				<div class="experience__item">
+					<div class="experience__image"></div>
+					<div class="experience__info">
+						<div class="experience__text">Challenge Alura</div>
+						<button class="experience__repo">Repositório</button>
+						<button class="experience__demo">Ver demo</button>
+					</div>
 				</div>
-			</div>
 
+				<div class="experience__item">
+					<div class="experience__image">
+					</div>
+					<div class="experience__info">
+						<div class="experience__text">Atividade Senai</div>
+						<button class="experience__repo">Repositório</button>
+						<button class="experience__demo">
+							<a href="https://petersonros.github.io/site-games/index-b.html" target="_blank">Ver demo</a>
+						</button>
+					</div>
+				</div>
+
+			</div>
 		</div>
 	</section>
 
-	<section class="contact">
+	<section id="contact">
 		<img src="./assets/image/unsplash_JYGnB9gTCls.svg" alt="" class="contact__image">
 		<h2 class="contact__title">Contato</h2>
 		<fieldset>
@@ -266,8 +289,11 @@
 	</section>
 
 	<footer>
-		<p>Desenvolvido por Peterson R Santos</p>
-		<p>2022</p>
+		<div class="footer__container">
+			<p class="footer__text">Desenvolvido por Peterson R. Santos</p>
+			<p class="footer__text">2022</p>
+		</div>
 	</footer>
+	
 </body>
 </html>

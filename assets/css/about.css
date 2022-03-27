@@ -1,23 +1,9 @@
-.about {
+#about {
+    align-items: center;
     background: #EAF2FD;
     display: flex;
     flex-direction: column;
     height: 24rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-@media screen and (min-width: 0) {
-    .about {
-        justify-content: center;
-        padding: 0 1rem;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .about {
-        padding: 0 5rem;
-        width: 1136px;
-    }
+    justify-content: center;
+    width: 100vw;
 }

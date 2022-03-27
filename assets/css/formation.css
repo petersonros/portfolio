@@ -1,10 +1,10 @@
-.formation {
-    background: #16384c;
+#formation {
+    align-items: center;
+    background: #EAF2FD;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
     justify-content: center;
+    width: 100vw;
 }
 
 .formation__height {
