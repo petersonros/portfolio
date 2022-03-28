@@ -9,7 +9,7 @@
 
 .hero__container {
     display: flex;
-    padding: 0 5rem;
+    padding: 0 5rem 2rem;
     justify-content: space-between;
     width: 1136px;
 }

@@ -1,7 +1,42 @@
-.experience__repo {
-    background: green;
-}
 
 .experience__demo {
-    background: yellow;
+    background: #f78733;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    margin: .3rem;
+    padding: .7rem 1.5rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.experience__demo:hover {
+    background: #fc4a1a;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.03);
+}
+
+.experience__repo {
+    background: #52658f;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    margin: .3rem;
+    padding: .7rem 1.5rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+.experience__repo:hover {
+    background: #333a56;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.03);
+}
+
+.experience__link {
+    text-decoration: none;
 }

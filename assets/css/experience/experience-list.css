@@ -1,4 +1,5 @@
-.social__list {
+.experience__list {
     display: flex;
-    margin-top: 1.5rem;
+    flex-direction: column;
+    width: 1136px;
 }

@@ -1,11 +1,35 @@
-.experience__image {
+.experience__image-01 {
+    background-image: url("../../image/criptografia.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 .5rem black;
+    height: 400px;
+    margin: 2.5rem 0;
+    width: 650px;
+}
+
+.experience__image-02 {
+    background-image: url("../../image/forca.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 .5rem black;
+    height: 400px;
+    margin: 2.5rem 0;
+    width: 650px;
+}
+
+.experience__image-03 {
     background-image: url("../../image/games_senai.jpeg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
     box-shadow: 0 0 .5rem black;
-    height: 450px;
+    height: 400px;
     margin: 2.5rem 0;
-    width: 750px;
+    width: 650px;
 }

@@ -1,15 +1,14 @@
 #skills {
     background: #F5F5F5;
     display: flex;
-    padding: 2rem 0rem;
     justify-content: center;
     width: 100vw;
 }
 
 .skills__container {
+    align-items: center;
     display: flex;
-    height: 15.25rem;
     flex-direction: column;
-    justify-content: space-around;
+    height: 20.85rem;
     width: 1136px;
 }

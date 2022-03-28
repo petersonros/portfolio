@@ -1,7 +1,7 @@
 .formation__item {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 10px 160px black;
+    box-shadow: 0 10px 10px black;
     display: flex;
     flex-direction: column;
     height: 235px;

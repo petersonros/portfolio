@@ -1,0 +1,13 @@
+.experience__title {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.35rem;
+    padding: 2rem 0;
+}
+
+.experience__sub-title {
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+    text-align: center;
+}

@@ -1,6 +1,8 @@
 .about__title {
+    color: black;
     font-size: 2rem;
     font-weight: bold;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
+    padding: 4rem 0 1rem;
     width: 750px;
 }

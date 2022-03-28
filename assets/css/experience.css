@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 5rem;
     width: 100vw;
 }
 
 .experience__container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0;
+    justify-content: space-between;
     width: 1136px;
 }

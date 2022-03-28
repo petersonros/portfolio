@@ -1,5 +1,13 @@
-.experience__item {
+.experience__item-right {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.experience__item-left {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
