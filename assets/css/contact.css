@@ -15,14 +15,61 @@ fieldset {
     flex-direction: column;
 }
 
+.contact__text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
 .form__legend {
     font-size: 2rem;
     font-weight: 700, bold;
     line-height: 2.6rem;
 }
 
-.input__message {
+.input__name {
+    border: none;
     border-radius: 7px;
-    height: 133px;
+    box-shadow: 0 2px 5px black;
+    height: 56px;
+    margin-top: 2rem;
     width: 656px;
+}
+
+.input__email {
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px black;
+    height: 56px;
+    margin-top: 2rem;
+    width: 656px;
+}
+
+.input__subject {
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px black;
+    height: 56px;
+    margin-top: 2rem;
+    width: 656px;
+}
+
+.input__message {
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px black;
+    height: 133px;
+    margin-top: 2rem;
+    width: 656px;
+}
+
+.contact_button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    color: #EAF2FD;
+    font-size: 1rem;
+    background-color: #07889b;
+    height: 51px;
+    margin-top: 2rem;
+    width: 165px;
 }
