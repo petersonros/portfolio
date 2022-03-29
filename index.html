@@ -56,6 +56,7 @@
 	<link rel="stylesheet" href="./assets/css/experience/experience-title.css">
 	<link rel="stylesheet" href="./assets/css/contact.css">
 	<link rel="stylesheet" href="./assets/css/contact/contact-image.css">
+	<link rel="stylesheet" href="./assets/css/contact/contact-container.css">
 	<link rel="stylesheet" href="./assets/css/footer.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="flex.css">
@@ -288,21 +289,33 @@
 	</section>
 
 	<section id="contact">
-		<img src="./assets/image/unsplash_JYGnB9gTCls.svg" alt="" class="contact__image">
-		<h2 class="contact__title">Contato</h2>
-		<fieldset>
-			<legend class="form__legend">Informações básicas</legend>
-			<div class="input__container">
-				<input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
-				<label class="input__label" for="nome">Nome</label>
-				<span class="input__error">Escreva seu nome por favor.</span>
-			</div>
-			<div class="input__container">
-				<input name="email" id="email" class="input" type="email" placeholder="Email" required>
-				<label class="input__label" for="email">Email</label>
-				<span class="input__error">Infome um email valido por favor.</span>
-			</div>
-		</fieldset>
+		<div class="contact__container">
+			<div class="contact__image"></div>
+			<fieldset>
+				<legend class="form__legend">Contato</legend>
+				<div class="input__container">
+					<input name="nome" id="input__name" class="input__name" type="text" placeholder="Nome" required>
+					<label class="input__label" for="nome"></label>
+					<span class="input__error">Escreva seu nome por favor.</span>
+				</div>
+				<div class="input__container">
+					<input name="email" id="input__email" class="input__email" type="email" placeholder="Email" required>
+					<label class="input__label" for="email"></label>
+					<span class="input__error">Infome um email por favor.</span>
+				</div>
+				<div class="input__container">
+					<input name="assunto" id="" class="input" type="email" placeholder="text" required>
+					<label class="input__label" for="email"></label>
+					<span class="input__error">Infome um assunto por favor.</span>
+				</div>
+				<div class="input__container">
+					<input name="assunto" id="input__message" class="input__message" type="text" placeholder="text" required>
+					<label class="input__label" for="email"></label>
+					<span class="input__error">Por favor, deixe uma mensagem.</span>
+				</div>
+				<button>Enviar</button>
+			</fieldset>
+		</div>
 	</section>
 
 	<footer>

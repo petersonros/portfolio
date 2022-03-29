@@ -1,8 +1,28 @@
 #contact {
     background: #EAF2FD;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     height: 788px;
+    justify-content: center;
     width: 100vw;
+}
+
+fieldset {
+    padding-left: 1rem;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__legend {
+    font-size: 2rem;
+    font-weight: 700, bold;
+    line-height: 2.6rem;
+}
+
+.input__message {
+    border-radius: 7px;
+    height: 133px;
+    width: 656px;
 }

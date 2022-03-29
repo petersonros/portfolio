@@ -1,0 +1,9 @@
+.contact__container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    justify-content: space-between;
+    padding-top: 4rem;
+    width: 1136px;
+}
