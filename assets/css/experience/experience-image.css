@@ -10,9 +10,14 @@
     background-image: url("../../image/games_senai.jpeg");
 }
 
+.experience__image-04 {
+    background-image: url("../../image/7daysofcode.jpeg");
+}
+
 .experience__image-01,
 .experience__image-02,
-.experience__image-03 {
+.experience__image-03,
+.experience__image-04 {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
