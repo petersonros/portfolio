@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
 
+:root {
+    /* color scheme 01 */
+    --fresh: #4abdac;
+    --vermillion: #fc4a1a;
+    --sunshine: #f78733;
+    --clean: #dfdce3;
+
+    /* color scheme 02 */
+    --tangerine: #e37272;
+    --teal: #07889b;
+    --powder: #66b9bf;
+    --tan: #eeaa7b;
+
+    /* color scheme 03 */
+    --void: #0e0b16;
+    --fuschia: #a239ca;
+    --jewel: #4717f6;
+    --stark: #e7dfdd;
+
+    /* color scheme 04 */
+    --corp1: #f7f5e6;
+    --corp2: #e8e8e8;
+    --corp3: #52658f;
+    --corp4: #333a56;
+
+    /* color schem 05 */
+    --midnight: #145DA0;
+    --dark: #0C2D48;
+    --blue: #2E8BC0;
+    --clear: #B1D4E0;
+
+    /* color schem 06 */
+    --cor1: #EEEDDE;
+    --cor2: #E0DDAA;
+    --cor3: #203239;
+    --cor4: #141E27;
+
+    /* clear, light, clean */
+    /* focus */
+    /* dark, deep */
+    /*  */
+}
+
 html {
     scroll-behavior: smooth;
 }

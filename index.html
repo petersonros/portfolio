@@ -7,59 +7,17 @@
 	<meta name="description" content="Challenge Oracle ONE - Front End">
 	<meta name="keywords" content="HTML, CSS, JavaScript, Alura, Oracle ONE">
 	<meta name="author" content="Peterson R.">
+	<link rel="stylesheet" href="assets/css/menu.css">
 	<link rel="stylesheet" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
 	<link rel="stylesheet" href="./assets/css/header.css">
-	<link rel="stylesheet" href="./assets/css/menu/menu-list.css">
-	<link rel="stylesheet" href="./assets/css/menu/menu-item.css">
-	<link rel="stylesheet" href="./assets/css/menu/menu-link.css">
 	<link rel="stylesheet" href="./assets/css/hero.css">
-	<link rel="stylesheet" href="./assets/css/hero/hero-description.css">
-	<link rel="stylesheet" href="./assets/css/hero/hero-title.css">
-	<link rel="stylesheet" href="./assets/css/hero/hero-text.css">
-	<link rel="stylesheet" href="./assets/css/hero/hero-profile.css">
-	<link rel="stylesheet" href="./assets/css/hero/hero-emphasis.css">
-	<link rel="stylesheet" href="./assets/css/social/social-list.css">
-	<link rel="stylesheet" href="./assets/css/social/social-item.css">
-	<link rel="stylesheet" href="./assets/css/social/social-link.css">
 	<link rel="stylesheet" href="./assets/css/about.css">
-	<link rel="stylesheet" href="./assets/css/about/about-title.css">
-	<link rel="stylesheet" href="./assets/css/about/about-text.css">
-	<link rel="stylesheet" href="./assets/css/about/about_content.css">
 	<link rel="stylesheet" href="./assets/css/skill.css">
-	<link rel="stylesheet" href="./assets/css/skills/skills-title.css">
-	<link rel="stylesheet" href="./assets/css/skills/skills-list.css">
-	<link rel="stylesheet" href="./assets/css/skills/skills-item.css">
-	<link rel="stylesheet" href="./assets/css/skills/skills-icon.css">
-	<link rel="stylesheet" href="./assets/css/skills/skills-text.css">
 	<link rel="stylesheet" href="./assets/css/hobbies.css">
-	<link rel="stylesheet" href="./assets/css/hobbies/hobbies-list.css">
-	<link rel="stylesheet" href="./assets/css/hobbies/hobbies-item.css">
-	<link rel="stylesheet" href="./assets/css/hobbies/hobbies-title.css">
-	<link rel="stylesheet" href="./assets/css/hobbies/hobbies-icon.css">
-	<link rel="stylesheet" href="./assets/css/hobbies/hobbies-text.css">
 	<link rel="stylesheet" href="./assets/css/formation.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-title.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-list.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-box.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-item.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-image.css">
-	<link rel="stylesheet" href="./assets/css/formation/formation-text.css">
 	<link rel="stylesheet" href="./assets/css/experience.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-button.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-image.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-info.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-item.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-list.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-text.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-tecnology.css">
-	<link rel="stylesheet" href="./assets/css/experience/experience-title.css">
-	<link rel="stylesheet" href="./assets/css/contact.css">
-	<link rel="stylesheet" href="./assets/css/contact/contact-image.css">
-	<link rel="stylesheet" href="./assets/css/contact/contact-container.css">
 	<link rel="stylesheet" href="./assets/css/footer.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="flex.css">
 	<title>Portfólio - Peterson</title>
 </head>
 <body class="container">
@@ -155,6 +113,8 @@
 		</div>
 	</section>
 
+<!-- 	Seção aguardando refatoração
+
 	<section id="hobbies">
 		<div class="hobbies__container">
 			<p class="hobbies__title">Hobbies</p>
@@ -187,7 +147,9 @@
 		</div>
 	</section>
 
-	<!--
+-->
+
+	<!-- Seção aguardando refatoração
 		Seção formação removida para fazer ajustes em um arquivo separado.
 		Assim que finalizar os ajustes eu volto a seção nessa parte.
 	-->
@@ -269,36 +231,10 @@
 		</div>
 	</section>
 
-	<section id="contact">
-		<div class="contact__container">
-			<div class="contact__image"></div>
-			<fieldset>
-				<legend class="form__legend">Contato</legend>
-				<p class="contact__text" >Entre em contato preechendo o formulario. Retorno o mais breve possível.</p>
-				<div class="input__container">
-					<input name="nome" id="input__name" class="input__name" type="text" placeholder="Nome" required>
-					<label class="input__label" for="nome"></label>
-					<!-- <span class="input__error">Escreva seu nome por favor.</span> -->
-				</div>
-				<div class="input__container">
-					<input name="email" id="input__email" class="input__email" type="email" placeholder="Email" required>
-					<label class="input__label" for="email"></label>
-					<!-- <span class="input__error">Infome um email por favor.</span> -->
-				</div>
-				<div class="input__container">
-					<input name="assunto" id="" class="input__subject" type="text" placeholder="Assunto" required>
-					<label class="input__label" for="email"></label>
-					<!-- <span class="input__error">Infome um assunto por favor.</span> -->
-				</div>
-				<div class="input__container">
-					<input name="assunto" id="input__message" class="input__message" type="text" placeholder="Mensagem" required>
-					<label class="input__label" for="email"></label>
-					<!-- <span class="input__error">Por favor, deixe uma mensagem.</span> -->
-				</div>
-				<button class="contact_button">Enviar mensagem</button>
-			</fieldset>
-		</div>
-	</section>
+	<!--  Seção aguardando refatoração 
+		Isolando seção em um documento HTML separado para refatorar.
+		Assim que a refatoração estiver concluída volto a seção aqui.
+	 -->
 
 	<footer>
 		<div class="footer__container">
