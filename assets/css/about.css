@@ -3,8 +3,11 @@
     background: #EAF2FD;
     display: flex;
     flex-direction: column;
-    height: 24rem;
-    justify-content: first baseline;
+
+    padding-top: 90px;
+    min-height: 100vh;
+    /* height: 24rem;
+    justify-content: first baseline; */
     width: 100vw;
 }
 .about__container {

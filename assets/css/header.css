@@ -1,4 +1,8 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
     align-items: center;
     background: #F5F5F5;
     display: flex;
@@ -28,3 +32,4 @@ header {
 .space {
     width: .5rem;
 }
+
