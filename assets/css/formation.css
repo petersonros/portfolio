@@ -5,69 +5,36 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 100vh;
 }
 
 .formation h1 {
-    display: flex ;
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.35rem;
     padding: 5.13rem 0 2rem;
 }
 
-.formation_box {
+.formations {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
     width: 1136px;
 }
 
-.formations a {
+.formations img {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 10px 10px black;
-    display: flex;
-    flex-direction: column;
     height: 330px;
-    margin: 4rem 1.5rem;
-    width: 540px;
-    padding: 15px 5px;
-    position: relative;
-    transition: 0.3s ease-in-out;
-}
-
-.formations a:hover {
-    height: 380px;
-}
-
-.formations img {
-    border-radius: 7px;
     height: 365px;
-    left: 10px;
-    position: relative;
-    top: -40px;
     width: 520px;
-    z-index: 1;
+    margin: 1rem .5rem;
 }
 
-.formations p {
+.formations a h2 {
     color: #111;
-    margin-top: -140px;
-    opacity: 0;
-    padding-top: 35px;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    text-align: left;
-    visibility: hidden;
+    margin-top: 30px;
+    text-align: center;
 }
 
-.formations p:hover {
-    margin-top: -100px;
-    opacity: 1;
-    transition-delay: 0.1s;
-    visibility: visible;
-}
