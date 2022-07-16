@@ -11,7 +11,6 @@
 
 #formation h1 {
     color: var(--cor1);
-    text-shadow: 0 0 .3rem white;
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.35rem;
@@ -23,7 +22,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: 1136px;
 }
 
@@ -35,6 +34,6 @@
 }
 
 .formations img:hover {
-    box-shadow: 0 0 .9rem white;
+    box-shadow: 0 0 .9rem var(--cor1);
     transform: scale(1.01);
 }
