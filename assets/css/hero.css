@@ -1,10 +1,8 @@
 #hero {
-    background: #F5F5F5;
+    background: var(--cor1);
     display: flex;
     justify-content: center;
-/*     padding-top: 90px;
-    min-height: 100vh; */
-    width: 100vw;
+    width: 100%;
 }
 
 .hero__container {

@@ -1,6 +1,5 @@
 #formation {
     align-items: center;
-   /*  background: #EAF2FD; */
     background: var(--corp4);
     display: flex;
     flex-direction: column;
